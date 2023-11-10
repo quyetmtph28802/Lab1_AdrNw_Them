@@ -37,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
         adapter = new PhotoAdapter(list, this);
         recyclerView.setAdapter(adapter);
 
-
+        loadPhotos();
     }
 
     private void loadPhotos(){
